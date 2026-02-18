@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>More Time, More Life</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins', sans-serif;
+}
+
+body{
+    background:#f5f7fb;
+    color:#333;
+}
+
+header{
+    background:linear-gradient(135deg,#1e3c72,#2a5298);
+    color:white;
+    text-align:center;
+    padding:80px 20px;
+}
+
+header h1{
+    font-size:3rem;
+    margin-bottom:15px;
+}
+
+header p{
+    font-size:1.2rem;
+    opacity:0.9;
+}
+
+.hero-btn{
+    display:inline-block;
+    margin-top:25px;
+    padding:12px 30px;
+    background:white;
+    color:#1e3c72;
+    text-decoration:none;
+    font-weight:600;
+    border-radius:30px;
+    transition:0.3s;
+}
+
+.hero-btn:hover{
+    background:#ddd;
+}
+
+section{
+    max-width:1100px;
+    margin:auto;
+    padding:60px 20px;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:40px;
+    font-size:2rem;
+    color:#1e3c72;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 8px 20px rgba(0,0,0,0.08);
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+.card h3{
+    margin-bottom:15px;
+    color:#2a5298;
+}
+
+.pricing{
+    text-align:center;
+}
+
+.price-box{
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 8px 20px rgba(0,0,0,0.08);
+    margin-top:20px;
+}
+
+footer{
+    background:#1e3c72;
+    color:white;
+    text-align:center;
+    padding:25px;
+    margin-top:40px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>More Time, More Life</h1>
+    <p><strong>Aprender sin agotarse es posible.</strong></p>
+    <p>Donde el aprendizaje y la vida van juntos.</p>
+    <a href="#info" class="hero-btn">Conocer más</a>
+</header>
+
+<section id="info">
+    <h2 class="section-title">¿Qué es More Time, More Life?</h2>
+    <div class="grid">
+        <div class="card">
+            <h3>Equilibrio Académico</h3>
+            <p>Limitamos la cantidad diaria de tareas para evitar la sobrecarga académica y reducir el estrés estudiantil.</p>
+        </div>
+        <div class="card">
+            <h3>Justicia para Maestros</h3>
+            <p>Todos los docentes tienen la misma oportunidad de asignar actividades sin saturar al alumno.</p>
+        </div>
+        <div class="card">
+            <h3>IA de Apoyo</h3>
+            <p>En el futuro, la aplicación integrará inteligencia artificial para apoyar el aprendizaje sin hacer las tareas por el estudiante.</p>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2 class="section-title">Planes</h2>
+    <div class="grid pricing">
+        <div class="price-box">
+            <h3>Versión Gratuita</h3>
+            <p>Anuncios breves y productivos cada cierto tiempo.</p>
+            <p><strong>$0 MXN</strong></p>
+        </div>
+        <div class="price-box">
+            <h3>Versión Premium</h3>
+            <p>Sin anuncios y con funciones avanzadas.</p>
+            <p><strong>$79 MXN / mes</strong></p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 More Time, More Life | Proyecto Escolar</p>
+</footer>
+
+</body>
+</html>
